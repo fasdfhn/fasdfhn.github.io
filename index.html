@@ -1,1 +1,146 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastella - Restore Your Precious Memories</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8fafc;
+      color: #222;
+    }
+    header {
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      padding: 2rem 0 1rem 0;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #4f46e5;
+      letter-spacing: 2px;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #64748b;
+      margin-top: 0.5rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    .feature {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      padding: 1.5rem;
+      max-width: 320px;
+      flex: 1 1 220px;
+      text-align: center;
+    }
+    .screenshots {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+    .screenshot {
+      width: 180px;
+      height: 360px;
+      background: #e0e7ef;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94a3b8;
+      font-size: 1.1rem;
+      font-style: italic;
+    }
+    .store-badges {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .store-badges img {
+      height: 54px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0 1rem 0;
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+    .footer-links {
+      margin-bottom: 0.5rem;
+    }
+    .footer-links a {
+      color: #4f46e5;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+    @media (max-width: 700px) {
+      .features, .screenshots {
+        flex-direction: column;
+        align-items: center;
+      }
+      .feature, .screenshot {
+        max-width: 90vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Pastella</div>
+    <div class="tagline">Restore Your Precious Memories</div>
+  </header>
+  <main>
+    <section class="features">
+      <div class="feature">
+        <h3>AI Photo Restoration</h3>
+        <p>Bring old, faded, or damaged photos back to life with advanced AI technology.</p>
+      </div>
+      <div class="feature">
+        <h3>Easy to Use</h3>
+        <p>Simple, intuitive interface. Restore photos in just a few taps.</p>
+      </div>
+      <div class="feature">
+        <h3>Privacy First</h3>
+        <p>Your photos are processed securely. No account required for basic use.</p>
+      </div>
+      <div class="feature">
+        <h3>Flexible Credits</h3>
+        <p>Pay only for what you use. Buy credits for more restorations.</p>
+      </div>
+    </section>
+    <section class="screenshots">
+      <div class="screenshot">Screenshot 1</div>
+      <div class="screenshot">Screenshot 2</div>
+      <div class="screenshot">Screenshot 3</div>
+    </section>
+    <section class="store-badges">
+      <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store"></a>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="support.html">Support</a>
+    </div>
+    &copy; 2024 Pastella. All rights reserved.
+  </footer>
+</body>
+</html>
